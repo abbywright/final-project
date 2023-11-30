@@ -1,1 +1,134 @@
-/* Add screen styles below */
+/* basics */
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   background: #fff;
+}
+
+main {
+   margin: 0 15px;
+   padding: 0 10px;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   background-color: rgba(5, 135, 228, 0.65);
+   padding: 5px;
+}
+
+header h1 {
+   margin: 0;
+   padding: 10px 15px;
+   font-size: 1.2em;
+   font-style: normal;
+}
+
+header ul {
+   list-style-type: none;
+   margin: 0;
+   padding-bottom: 5px;
+}
+
+header ul li {
+   display: inline-block;
+   padding: 0 20px;
+   color: black;
+}
+
+header nav {
+   display: flex;
+   align-items: flex-end;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   line-height: 1.4em;
+}
+
+ a {
+	text-decoration: none;
+   font-weight: 400;
+}
+
+a:visited {
+   color: black;
+ }
+
+ h1 {
+   font-size: 1.45em;
+   font-weight: normal;
+}
+
+ p {
+   line-height: 1.5em;
+}
+
+ h2 {
+   margin: 0;
+   padding-top: 17px;
+}
+
+.bottom {
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 150px;
+   background-color: #D9D9D9;
+}
+
+/* home */
+.skills {
+   display: block;
+   list-style-type: disc;
+   margin-top: 1em;
+   margin-bottom: 1 em;
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 40px;
+}
+
+/* work */
+
+/* contact */
+.contact-list {
+   display: block;
+   list-style-type: "-  ";
+   margin-top: 1em;
+   margin-bottom: 1 em;
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 40px;
+}
+
+label {
+   display: inline-block;
+   padding-top: 20px;
+ }
+
+form {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   width: 60vw;
+   max-width: 500px;
+   min-width: 300px;
+   padding-bottom: 2em;
+ }
+
+ input[type="text"] {
+   margin: 10px 0 0 0;
+   width: 100%;
+   height: 1.5em;
+ }
+
+ textarea, select {
+   margin: 10px 0 0 0;
+   width: 100%;
+   min-height: 2em;
+ }
+ 
+ textarea {
+   border: 1px solid #0a0a23;
+ }
