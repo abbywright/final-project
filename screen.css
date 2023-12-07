@@ -49,6 +49,10 @@ ul {
    line-height: 1.4em;
 }
 
+nav a {
+   color: black;
+}
+
  a {
 	text-decoration: none;
    font-weight: 400;
