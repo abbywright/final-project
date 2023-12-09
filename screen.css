@@ -139,8 +139,9 @@ h4 {
    display: block;
 }
 
-.svfe {
-   text-decoration: underline;
+.svfe li a  {
+   color: darkblue;
+   line-height: 1.3em;
 }
 
 .image-grid-sv {
@@ -165,7 +166,7 @@ h4 {
 
 ul.image-grid-sv {
    margin: 0;
-   padding-bottom: 12px;
+   padding: 12px 0;
 }
 
 .visited-places {
