@@ -123,7 +123,6 @@ h4 {
 h4, .research li a, .svfe li a {
    font-weight: 500;
    color: #3737EF;
-   /* color: #0657A7; 3737EF */
    font-size: 16px;
    padding: 5px 0;
 }
@@ -158,10 +157,15 @@ h4, .research li a, .svfe li a {
 .image-grid-sv img {
    width: 195px;
    height: 195px;
-   margin: 0 auto;
    border: 5px solid white;
    border-radius: 3px;
 }
+
+ .image-grid img {
+   width: 100%;
+   border: 3px solid white;
+   border-radius: 3px;
+ }
 
 ul.image-grid-sv {
    margin: 0;
